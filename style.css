@@ -11,7 +11,6 @@
     padding: 0px;
     margin: 0px;
 }
-
 header {
     color: white;
     background-color: black;
@@ -25,10 +24,6 @@ header {
 header p {
     padding-top: 10px;
 }
-p {
-
-
-}
 main p {
     padding: 25px 25px 25px 25px;
     font-family: var(--font-one);
@@ -37,9 +32,6 @@ main p {
 }
 main section p {
     color: white;
-
-}
-.padrao {
 
 }
 .branco p {
