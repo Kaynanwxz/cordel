@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+
+:root {
+
+    --font-one: 'LeckerLi One', 'cursive';
+    --font-pad: 'ariel';
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    color: white;
+    background-color: black;
+    height: 100px;
+    width: auto;
+    text-align: center;
+    padding-top: 50px;
+    
+    
+}
+header p {
+    padding-top: 10px;
+}
+p {
+
+
+}
+main p {
+    padding: 25px 25px 25px 25px;
+    font-family: var(--font-one);
+    font-size: 3.5vh;
+
+}
+main section p {
+    color: white;
+
+}
+.padrao {
+
+}
+.branco p {
+    color: black;
+}
+.img p{
+    position: relative;
+    width: max-content;
+    background-color: rgba(0, 0, 0, 0.169);  
+}
+.img{
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    padding: 100px 10px 140px 0px;
+
+}
+#img1 {
+    background-image: url('imagens/background001.jpg');
+
+}
+#img2 {
+    background-image: url('imagens/background002.jpg');
+}
+
